@@ -1,4 +1,4 @@
-#Brief Lecturer
+# Brief Lecturer
 # Audio Dialogue Extraction & Summarization
 
 Offline tool for transcribing video or audio recordings, identifying individual speakers, and querying discussion summaries with a local LLM.
@@ -25,8 +25,8 @@ GPU and CPU memory are cleared between steps via `gc.collect()` and `torch.cuda.
 Clone the repository and set up a virtual environment:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/rorovaaa/brief_lecture
+cd brief_lecture
 python3 -m venv .venv
 source .venv/bin/activate
 ```
