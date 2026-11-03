@@ -1,3 +1,4 @@
+#Brief Lecturer
 # Audio Dialogue Extraction & Summarization
 
 Local offline pipeline that extracts audio from video/audio files, diarizes speakers with Pyannote, transcribes speech with Faster-Whisper, aligns dialogue turns, and generates summaries or answers questions using a local Qwen GGUF model via llama.cpp.
